@@ -47,10 +47,11 @@ const UserLogin = () => {
 
   return (
     <div className="user-login">
+      <img src=".img/logo1.png"/>
       <h1 className="user-login__title">Seja bem vindo Aluno</h1>
       <form onSubmit={onSubmit}>
         <div className="user-login__form-control">
-          <label htmlFor="user">Usuário</label>
+          <label htmlFor="user">Usuário ou RM</label>
           <input
             id="user"
             type="text"

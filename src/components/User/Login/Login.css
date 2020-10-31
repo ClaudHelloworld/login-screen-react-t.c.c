@@ -5,7 +5,7 @@
 
 .user-login__title {
   font-size: 40px;
-  color: #0ABDE3;
+  color: red;
   margin-bottom: 50px;
   text-align: center;
 }
@@ -31,7 +31,7 @@
 
 .user-login__form-control input:focus {
   outline: 0;
-  border-color: #5988df;
+  border-color: black;
 }
 
 .user-login__submit-button {
